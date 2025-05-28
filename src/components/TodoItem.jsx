@@ -26,7 +26,7 @@ function TodoItem(props) {
       <div className="my-10 w-[80%]">
         <div className="search w-[50%] my-10">
           <input
-            className="w-full p-3 rounded-xl"
+            className="w-full p-3 rounded-xl border"
             type="text"
             placeholder="Search Todos"
             value={search}
